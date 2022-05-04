@@ -127,7 +127,9 @@ at.txt		lorem.txt	sed.txt
        9
 
 17.
-% 
+% ls -1R | grep -E "^lorem.*\..*" | wc -l
+       2
+
 
 
 
